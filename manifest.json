@@ -1,0 +1,10 @@
+{
+  "description": "Firefox Extension Playground",
+  "manifest_version": 2,
+  "name": "firefox-extension-playground",
+  "version": "0.1",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
